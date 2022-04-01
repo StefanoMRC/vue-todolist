@@ -17,7 +17,9 @@
             <div class="d-flex w-50 m-auto">
 
 
-                <input type="text" v-model="nuovaLista" class="form-control me-2" placeholder="inserisci to do">
+                <input type="text" v-model="nuovaLista" class="form-control me-2" placeholder="inserisci to do"
+                @keyup.enter="aggiungiRiga"
+                >
 
 
                 <button type="button" class="btn btn-outline-primary" @click="aggiungiRiga">Aggiungi</button>
