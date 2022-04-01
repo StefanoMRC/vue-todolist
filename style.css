@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-custom{
+    background-color: blanchedalmond;
+    border-radius: 50px;
+}
+.bg-custom2{
+    background-color: azure;
+    border-radius: 30px;
+}
+.barrato{
+    text-decoration: line-through;
+}
