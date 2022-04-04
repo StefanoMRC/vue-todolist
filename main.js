@@ -41,15 +41,14 @@ var app = new Vue(
                 this.nuovaLista=""
             }
         },
-        rigaTesto: function(){
-            if(this.done==true){
-                this.classe=[]
-                this.done=false
+        rigaTesto: function(element){
+            if(element.done==true){
+                element.done=false
             }else{
-                this.classe.push("barrato")
-                this.done=true
+                element.done=true
             }
-            console.log(this.classe)
+            
+            console.log(element)
         }
     }
 }
