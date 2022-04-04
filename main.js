@@ -24,7 +24,6 @@ var app = new Vue(
         lista:[
 
         ],
-        classe:[],
         nuovaLista:""
     },
     methods:{
